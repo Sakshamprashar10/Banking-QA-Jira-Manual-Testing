@@ -5,19 +5,23 @@ This project simulates a comprehensive Quality Assurance testing cycle on a Bank
 
 ## Test Artifacts
 * **Complete Test Case Matrix:** [Click here to view Banking_Loan_Management_System_Test_Cases_30.xlsx](./Test_Artifacts/Banking_Loan_Management_System_Test_Cases_30.xlsx)
-* Total Cases Executed: 30 Manual Test Cases covering Aadhaar, PAN validation, facial clarity limits, duplicate profiles, and input validation bounds.
+* Total Cases Executed: 30 Manual Test Cases covering identity verification formats, PAN validation, facial clarity limits, duplicate profiles, and input validation bounds.
 
 ## Defect Management Lifecycle (Jira Cloud)
 To maintain structural compliance with professional development setups, I tracked all executions inside Jira using a dedicated Scrum Sprint framework.
 
-### 1. Active Sprint Breakdown
-* Created tracking tasks for major test blocks: Functional Execution (`SCRUM-10`), Boundary Testing (`SCRUM-11`), and Security Testing (`SCRUM-12`).
-* Defect `SCRUM-14` was isolated during boundary limit analysis.
+### 1. Defect Logged & Added to Sprint (Status: TO DO)
+* Identified the KYC file upload crash during boundary execution tracks.
+* Logged under issue key `SCRUM-14` and initialized in the active sprint backlog.
 
-![Jira Sprint Status](./Proofs_and_Metrics/Jira_Sprint_Backlog.png)
+![Jira Bug ToDo](./Test_Artifacts/Proofs_and_Metrics/Jira_Bug_Isolated_ToDo.png)
 
-### 2. Isolated Critical Bug Record (SCRUM-14)
-* **Defect:** Application crashes (Blank White Screen) upon uploading files over 25MB instead of triggering validation rules.
-* **Impact Matrix:** Disruption of UI thread runtime, requiring proper exception handling configurations.
+### 2. Isolated Critical Bug Record (SCRUM-14 Details)
+* Complete production-grade bug report documentation inside Jira featuring reproduction steps, environment scope, expected vs actual behaviors, and severity indexing.
 
-![Jira Bug Breakdown](./Proofs_and_Metrics/Jira_Bug_Report_SCRUM14.png)
+![Jira Bug Report](./Test_Artifacts/Proofs_and_Metrics/Jira_Bug_Report_SCRUM14.png)
+
+### 3. Simulating Dev Hand-off (Status: IN PROGRESS)
+* Transitioned the defect lifecycle to state `IN PROGRESS` to demonstrate correct agile alignment and cross-functional task tracking.
+
+![Jira Bug InProgress](./Test_Artifacts/Proofs_and_Metrics/Jira_Workflow_InProgress.png)
